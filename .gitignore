@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OS temp files
+*.tmp
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
+
+# Environment / secrets
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+secrets/
+credentials/
+service-account*.json
+gcp-key.json
+gcloud-service-account.json
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.vite/
+
+# TypeScript
+*.tsbuildinfo
