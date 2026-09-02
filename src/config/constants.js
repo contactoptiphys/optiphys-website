@@ -1,4 +1,9 @@
 // Design tokens extracted from Stitch design
+
+// WhatsApp configuration
+export const whatsappNumber = '917842363232'
+export const whatsappMessage = 'Hello OptiPhys, I would like to know more about your automation services.'
+
 export const colors = {
   // Core colors
   background: '#111318',

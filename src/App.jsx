@@ -8,6 +8,7 @@ import HowItWorksSection from './components/sections/HowItWorksSection'
 import SolutionsSection from './components/sections/SolutionsSection'
 import ContactPage from './components/sections/ContactPage'
 import BackgroundEffects from './components/effects/BackgroundEffects'
+import WhatsAppButton from './components/ui/WhatsAppButton'
 import RevealSection from './hooks/RevealSection.jsx'
 import { ServiceProvider } from './context/ServiceContext'
 
@@ -66,6 +67,8 @@ function LandingPage({ onContactUs }) {
       {/* Layer 5: Footer */}
       <Footer onContact={onContactUs} />
 
+      {/* Layer 6: WhatsApp Floating Button */}
+      <WhatsAppButton />
     </>
   )
 }
@@ -91,6 +94,7 @@ function App() {
         </Suspense>
         <BackgroundEffects />
         <ContactPage onBack={handleBackToLanding} />
+        <WhatsAppButton />
       </>
     )
   }
